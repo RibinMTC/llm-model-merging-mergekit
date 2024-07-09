@@ -1,0 +1,7 @@
+mergekit-yaml my_merge_configs/xnli_absinth_task_arithmetic.yml /media/cribin/4ff138a6-4ad8-4fcb-b932-97393d17c043/FaithfulSummarization/model_merging_outputs/absinth_xnli_with_explanation_merge/task_arithmetic/xnli_0-35_absinth_0-65 --cuda --lazy-unpickle --low-cpu-memory
+
+mergekit-yaml my_merge_configs/xnli_absinth_task_arithmetic.yml /media/cribin/4ff138a6-4ad8-4fcb-b932-97393d17c043/FaithfulSummarization/model_merging_outputs/absinth_xnli_with_explanation_merge/task_arithmetic/xnli_0-65_absinth_0-35 --cuda --lazy-unpickle --low-cpu-memory
+
+mergekit-yaml my_merge_configs/xnli_absinth_task_arithmetic.yml /media/cribin/4ff138a6-4ad8-4fcb-b932-97393d17c043/FaithfulSummarization/model_merging_outputs/absinth_xnli_with_explanation_merge/task_arithmetic/xnli_0-5_absinth_0-5 --cuda --lazy-unpickle --low-cpu-memory
+
+mergekit-yaml my_merge_configs/xnli_absinth_dare-ties.yml /media/cribin/4ff138a6-4ad8-4fcb-b932-97393d17c043/FaithfulSummarization/model_merging_outputs/absinth_xnli_with_explanation_merge/dare_ties --cuda --lazy-unpickle --low-cpu-memory

@@ -1,0 +1,12 @@
+models:
+  - model: /media/cribin/4ff138a6-4ad8-4fcb-b932-97393d17c043/FaithfulSummarization/euler_scratch_backup/custom_xnli_faithfulness_multi_label_classification_with_explanation/leo-mistral-7b-lora-no-packing_with-eos/merged
+    parameters:
+      weight: 0.2
+      density: 0.8
+  - model: /media/cribin/4ff138a6-4ad8-4fcb-b932-97393d17c043/FaithfulSummarization/euler_scratch_backup/absinth_faithfulness_multi_label_classification_with_explanation/leo-mistral-7b-lora-no-packing_with-eos/merged
+    parameters:
+      weight: 0.8
+      density: 0.8
+base_model: LeoLM/leo-mistral-hessianai-7b
+merge_method: dare_ties
+dtype: bfloat16

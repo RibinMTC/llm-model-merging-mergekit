@@ -1,0 +1,10 @@
+models:
+  - model: ...
+    parameters:
+      weight: 0.35
+  - model: ...
+    parameters:
+      weight: 0.65
+merge_method: ties
+base_model: LeoLM/leo-mistral-hessianai-7b
+dtype: bfloat16
